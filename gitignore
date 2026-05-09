@@ -1,0 +1,42 @@
+# =====================
+# SECRETS — never upload
+# =====================
+.env
+
+# =====================
+# Large model files — stored in MongoDB GridFS, not Git
+# =====================
+*.keras
+*.pkl
+*.h5
+biobert_model/
+rnn_metrics.json
+
+# =====================
+# Python cache
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# =====================
+# Virtual environments
+# =====================
+venv/
+env/
+.venv/
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# IDEs
+# =====================
+.vscode/
+.idea/
+*.swp

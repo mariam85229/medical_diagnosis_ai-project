@@ -1,0 +1,14 @@
+flask
+pymongo
+python-dotenv
+requests
+beautifulsoup4
+lxml
+tensorflow
+scikit-learn
+transformers
+datasets
+torch
+numpy
+joblib
+nltk
